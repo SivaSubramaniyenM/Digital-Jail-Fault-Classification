@@ -5,7 +5,7 @@ This project uses a **Hybrid Naïve Bayes** approach to classify PLC alarm logs 
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 Modern industrial machines frequently generate alarms during operation. Some alarms are harmless, while others indicate abnormal motor load, mechanical binding, or electrical faults. Operators often clear alarms repeatedly to keep production running, which can escalate hidden faults into breakdowns.
 
@@ -22,9 +22,9 @@ The project includes:
 
 ---
 
-## 🧠 Machine Learning Architecture
+## Machine Learning Architecture
 
-### ✔ Hybrid Naïve Bayes Classifier
+### Hybrid Naïve Bayes Classifier
 - **MultinomialNB** → Alarm message text classification  
 - **GaussianNB** → Numeric features (Current Ratio, Alarm Duration, Reset Count)  
 - **Final Fault Score** = Average of both probabilities  
